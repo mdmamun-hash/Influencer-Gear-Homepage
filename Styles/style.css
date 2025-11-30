@@ -18,9 +18,11 @@ body{
     display: flex;
 }
 .btn{
+display: flex;
+align-items: center;
 color: rgba(255, 255, 255, 1);
 font-family: Poppins;
-font-size: 16px;
+font-size: 1rem;
 font-weight: 700;
 padding: 10px 24px;
 background-color:rgba(224, 44, 109, 1) ;
@@ -66,8 +68,6 @@ font-weight: 600;
 margin-bottom: 16px;
 }
 .banner-btn{
-    display: flex;
-    align-items: center;
     border-radius: 41px;
 }
 .banner-img{
@@ -94,3 +94,68 @@ margin-bottom: 16px;
     border-image: linear-gradient(135.29deg, rgba(192, 204, 218, 0.1),rgba(192, 204, 218, 0.6) 50%,rgba(192, 204, 218, 0.1) 100%) 1;
 }  
 
+                             /* Popular Collection Section */
+
+
+                             
+.popular-collection{
+    width: 1047px;
+    margin: 0 auto 100px;
+}
+.popular-collection-title{
+color: rgba(58, 58, 58, 1);
+font-family: Poppins;
+font-size: 1.75rem;
+font-weight: 600;
+text-align: center;
+margin-bottom: 30px;
+}
+.product-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.product-card{
+ padding: 17px 14px;
+ border-radius: 5px;
+ box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+}
+.product-card img{
+    width: 300px;
+    height: 256px;
+}
+.p-name{
+color: rgb(24, 25, 31);
+font-family: Poppins;
+font-size: 1.75rem;
+font-weight: 500;
+}
+.p-price{
+color: rgba(0, 0, 0, 0.87);
+font-family: Inter;
+font-size: 1.5rem;
+font-weight: 400;
+}
+
+.p-desc{
+width: 196px;
+color: rgb(120, 120, 133);
+font-family: Inter;
+font-size: 0.875rem;
+font-weight: 700;
+}
+.see-more{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: flex-end;
+}
+
+                                 /* featured products in one place */
+
+.featured{
+    width:1110px;
+    margin: 0 auto 100px;
+    gap: 96px;
+    align-items: center;
+}                                 
