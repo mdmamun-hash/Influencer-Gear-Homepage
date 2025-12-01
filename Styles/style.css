@@ -49,8 +49,6 @@ background-color:rgba(224, 44, 109, 1) ;
 border: 0;
 }             
 
-
-
                                            /* header Styles */
 
 .nav-bar{
@@ -58,11 +56,23 @@ border: 0;
     justify-content: space-between;
     margin: 0 120px 50px;
     padding-top: 90px;
+}
+.brand{
+    color: rgba(58, 58, 58, 1);
+    font-family:poppins;
+    font-size: 1.5rem;
+    font-weight: 700;
 }   
 .nav-links{
     width:463px ;
     justify-content: space-between;
     align-items: center;
+}
+.nav-links li{
+    color: rgb(58, 58, 58);
+    font-family: poppins;
+    font-size: 1rem;
+    font-weight: 600;
 }
 .banner{
     margin-left: 120px;
@@ -148,14 +158,21 @@ color: rgb(24, 25, 31);
 font-family: Poppins;
 font-size: 1.75rem;
 font-weight: 500;
+margin-bottom: 6px;
 }
 .p-price{
 color: rgba(0, 0, 0, 0.87);
 font-family: Inter;
 font-size: 1.5rem;
 font-weight: 400;
+margin-bottom: 8px;
 }
-
+.p-rating{
+    margin-bottom: 6px;
+}
+.golden{
+    color:rgba(251, 130, 0);
+}
 .p-desc{
 width: 196px;
 color: rgb(120, 120, 133);
