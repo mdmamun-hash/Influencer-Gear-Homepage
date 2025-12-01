@@ -2,6 +2,26 @@
     margin: 0;
     padding: 0;
 }
+
+                                      /* All  Fonts */
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.manrope{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+                                            /* Body & Wrapper */
+
 body{
     width: 100vw;
     background: rgba(170, 170, 170);
@@ -27,11 +47,11 @@ font-weight: 700;
 padding: 10px 24px;
 background-color:rgba(224, 44, 109, 1) ;
 border: 0;
-}           
+}             
 
 
 
-                /* header Styles */
+                                           /* header Styles */
 
 .nav-bar{
     align-items: center;
@@ -81,7 +101,7 @@ margin-bottom: 16px;
     height:414px ;
 }
 
-                      /* main Styles */
+                                         /* main Styles */
 
 .partners{
     width: 1110px;
@@ -94,9 +114,7 @@ margin-bottom: 16px;
     border-image: linear-gradient(135.29deg, rgba(192, 204, 218, 0.1),rgba(192, 204, 218, 0.6) 50%,rgba(192, 204, 218, 0.1) 100%) 1;
 }  
 
-                             /* Popular Collection Section */
-
-
+                                        /* Popular Collection Section */
                              
 .popular-collection{
     width: 1047px;
@@ -160,9 +178,7 @@ font-weight: 700;
     align-items: center;
 }
 
-
-
-
+                                  /* footer's Style  */
 
 footer{
     color: rgba(255, 255, 255, 1);
