@@ -187,9 +187,15 @@ font-size: 0.875rem;
 font-weight: 700;
 }
 .see-more{
+    color: rgb(228, 71, 128);
+    font-family: Poppins;
+    font-weight: 700;
     text-transform: capitalize;
     display: flex;
     justify-content: flex-end;
+}
+.pink-arrow{
+    filter: invert(48%) sepia(37%) saturate(4665%) hue-rotate(311deg) brightness(91%) contrast(95%);
 }
 
                                  /* featured products in one place */
