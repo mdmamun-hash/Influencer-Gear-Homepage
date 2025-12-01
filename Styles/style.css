@@ -209,6 +209,7 @@ font-weight: 700;
 margin-bottom: 16px;
 }
 .featured-desc{
+width: 500px;
 color: rgb(108, 108, 108);
 font-family: Poppins;
 font-size: 1rem;
