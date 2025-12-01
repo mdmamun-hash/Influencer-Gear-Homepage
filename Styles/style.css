@@ -173,6 +173,12 @@ margin-bottom: 8px;
 .golden{
     color:rgba(251, 130, 0);
 }
+.gray{
+color: rgba(94, 99, 102, 1);
+font-family: Roboto;
+font-size: .875rem;
+font-weight: 700;
+}
 .p-desc{
 width: 196px;
 color: rgb(120, 120, 133);
