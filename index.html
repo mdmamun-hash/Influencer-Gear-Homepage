@@ -6,6 +6,7 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="Styles/style.css">
     <title>Influencer Gear</title>
     
@@ -15,6 +16,8 @@
         <header>
         <section class="nav-bar display-flex">
             <h3 class="brand">Influencer Gear</h3>
+            <input type="checkbox" class="chckbox" name="" id="hamburger">
+            <label class="hamburger-icon" for="hamburger"></label>
             <ul type="none" class="nav-links display-flex">
             <li>Home</li>
             <li>Products</li>
@@ -36,7 +39,7 @@
             </div>
         </section>
     </header>
-    <main>
+    <main class="hide">
         <section class="partners display-flex">
             <img src="assets/logos/Alibaba.svg" alt="">
             <img src="assets/logos/Amazon.svg" alt="">
@@ -137,7 +140,7 @@
 
         </section>
     </main>
-    <footer class="display-flex">
+    <footer class="display-flex hide">
         <h4 class="f-title">Influencer products</h4>
         <p class="f-desc1"> @Copyright 2020  influencer products</p>
         <p class="f-desc2">All rights reserved</p>
