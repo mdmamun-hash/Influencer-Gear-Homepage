@@ -275,7 +275,7 @@ margin-bottom: 10px;
 
 @media screen and (max-width:576px){
     .wrapper{
-        width: 100%;
+        width: 100vh;
     }
     .nav-bar{
         width: 95%;
